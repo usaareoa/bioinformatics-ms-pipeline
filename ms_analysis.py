@@ -6,6 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+os.makedirs("outputs", exist_ok=True)
 dataset_folder = "datasets"
 mapping = pd.read_csv("genome_mapping.txt", sep=",")
 mapping = mapping.rename(columns={"Gene stable ID": "gene", "HGNC symbol": "gene_name"})
@@ -120,8 +121,8 @@ summary_df = pd.DataFrame(summary_rows)
 print("\n--- Summary by gene and tissue ---")
 print(summary_df.to_string())
 
-results_df.to_csv("results.csv", index=False)
-summary_df.to_csv("summary.csv", index=False)
+results_df.to_csv("outputs/results.csv", index=False)
+summary_df.to_csv("outputs/summary.csv", index=False)
 print("\nSaved to results.csv and summary.csv")
 
 
@@ -159,7 +160,7 @@ blood_patch = mpatches.Patch(color=palette["blood"], label="Blood")
 fig.legend(handles=[cns_patch, blood_patch], loc="upper right", bbox_to_anchor=(1.02, 1.0))
 
 plt.tight_layout()
-plt.savefig("plot1_log2fc_per_dataset.png", dpi=300, bbox_inches="tight")
+plt.savefig("outputs/plot1_log2fc_per_dataset.png", dpi=300, bbox_inches="tight")
 plt.close()
 print("Saved plot1_log2fc_per_dataset.png")
 
@@ -191,6 +192,6 @@ for ax, gene in zip(axes, targets):
 
 axes[0].legend(fontsize=9)
 plt.tight_layout()
-plt.savefig("plot2_updown_summary.png", dpi=300, bbox_inches="tight")
+plt.savefig("outputs/plot2_updown_summary.png", dpi=300, bbox_inches="tight")
 plt.close()
 print("Saved plot2_updown_summary.png")
