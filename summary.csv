@@ -1,0 +1,10 @@
+gene,tissue,datasets_total,upregulated,downregulated,mean_log2FC,median_log2FC,p<0.05_count
+S100A8,CNS,6,5,1,0.1684,0.0935,0
+S100A8,blood,3,2,1,0.169,0.0035,0
+S100A8,all,9,7,2,0.1686,0.0731,0
+S100A9,CNS,6,5,1,0.1088,0.0423,0
+S100A9,blood,3,2,1,0.3299,0.1024,0
+S100A9,all,9,7,2,0.1825,0.0712,0
+ALOX15B,CNS,6,4,2,0.1044,0.0464,0
+ALOX15B,blood,3,2,1,0.0084,0.0001,0
+ALOX15B,all,9,6,3,0.0724,0.0303,0

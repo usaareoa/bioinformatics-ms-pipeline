@@ -1,0 +1,15 @@
+sample_name,disease,tissue,norm,vital_status,Title,batch,tissue_raw,cell type,condition,Source name,Extraction protocol
+GSM7813415,multiple sclerosis,blood,false,false,slcl_sms1,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813416,multiple sclerosis,blood,false,false,slcl_sms2,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813417,multiple sclerosis,blood,false,false,slcl_sms3,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813418,multiple sclerosis,blood,false,false,slcl_hc1,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813419,multiple sclerosis,blood,false,false,slcl_hc2,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813420,multiple sclerosis,blood,false,false,hc_lcl5_3,2,blood,lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813414,multiple sclerosis,blood,false,false,slcl_ams4,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813411,multiple sclerosis,blood,false,false,slcl_ams1,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813412,multiple sclerosis,blood,false,false,slcl_ams2,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813413,multiple sclerosis,blood,false,false,slcl_ams3,2,blood,spontaneous lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813421,multiple sclerosis,blood,false,false,ms_lcl1_3,2,blood,lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813422,multiple sclerosis,blood,false,false,hc_lcl7,2,blood,lymphoblastoid cell lines,multiple sclerosis,blood,lexogen quantseq
+GSM7813423,healthy,blood,true,false,hc_lcl8,2,blood,lymphoblastoid cell lines,healthy control,blood,lexogen quantseq
+GSM7813424,healthy,blood,true,false,ms_lcl7,2,blood,lymphoblastoid cell lines,healthy control,blood,lexogen quantseq
