@@ -40,7 +40,7 @@ pandas, numpy, scipy, seaborn, matplotlib
 ## Results
 
 * 90% of the 10 raw GEO datasets successfully came out of the pipeline; One was unsuccessful due to, upon further analysis of the raw file, being identified as a murine model
-* Concerning Calprotectin (S100A8/9), 7 out of 9 datasets, or 77%, confirmed significant upregulation in MS patients versus controls. A binomial meta-analysis concluded p to be at 0.09. While not conventionally significant, these small-scale prompts further investigation, particularly due to the magnitude of the Log2 Fold Change across both CNS lesions and peripheral blood samples.
+* Concerning Calprotectin (S100A8/9), 7 out of 9 datasets, or 77%, confirmed some level of upregulation in MS patients versus controls. A binomial meta-analysis concluded p to be at 0.09. While not conventionally significant, these small-scale prompts further investigation, particularly due to the magnitude of the Log2 Fold Change across both CNS lesions and peripheral blood samples.
 * Concerning ALOX15B, 6 out of the 9 datasets, or 66%, confirmed upregulation.
 
 
